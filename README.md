@@ -7,12 +7,17 @@ Code
  sudo apt-install Nmap 
  ```
 Find Local IP using the following Command on your Terminal/Command Prompt:
+
 On Windows:
-```bash
+
+Code```
 ipconfig```
+
 On Mac/Linux:
-```bash
-ipconfig```
+
+Code```
+ifconfig```
 
 To scan The Network , we would write command:
 Code```
+nmap -sS -p- [IP address]/[subnet]```
