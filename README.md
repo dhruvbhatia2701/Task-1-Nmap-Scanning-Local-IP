@@ -9,15 +9,19 @@ Code
 Find Local IP using the following Command on your Terminal/Command Prompt:
 
 On Windows:
-
-Code```
-ipconfig```
+Code
+```
+ipconfig
+```
 
 On Mac/Linux:
-
-Code```
-ifconfig```
+Code
+```
+ifconfig
+```
 
 To scan The Network , we would write command:
-Code```
-nmap -sS -p- [IP address]/[subnet]```
+Code
+```
+nmap -sS -p- [IP address]/[subnet]
+```
